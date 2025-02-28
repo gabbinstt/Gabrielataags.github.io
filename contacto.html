@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <header class="header">
+        <a href="#" class="logo"> !Bienvenidos A Briela Beuty!</a>
+        <nav class="navbar">
+            <a href="catalogo.html">Inicio</a>
+            <a href="diseño.html">Diseño</a>
+            <a href="colores.html">Colores</a>
+            <a href="contacto.html">Contacto</a>
+            <link rel="stylesheet" href="styles.css">
+            
+        </nav>
+    
+    </header> 
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Manicurista</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        h1 {
+            color: #d63384;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #d63384;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 2px solid #d63384;
+            border-radius: 5px;
+            outline: none;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            background: #d63384;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #a02165;
+        }
+        .social {
+            margin-top: 20px;
+        }
+        .social a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #d63384;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contacto</h1>
+        <p>¡Agenda tu cita o haz tus consultas!</p>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        
+        <div class="social">
+            <p>Sígueme en mis redes:</p>
+            <a href="#">📸 Instagram</a>
+            <a href="#">📘 Facebook</a>
+            <a href="#">📞 WhatsApp</a>
+        </div>
+    </div>
+</body>
+</html>
